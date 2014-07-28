@@ -1,0 +1,68 @@
+body {
+    font-family: helvetica;
+    
+    }
+
+a:link {color:#008eff; text-decoration:none;}
+a:hover {color:#008eff; font-style: italic; text-decoration:none;}
+a:visited {color:black; text-decoration:none;}
+a:active {color:#008fff; text-decoration:none;}
+    
+#menu {
+    width: 50px;
+    position: absolute;
+    left: 30%;
+    top: 250px;
+    text-align: right;
+    line-height: 4;
+
+}
+    
+img {
+ position: absolute;   
+     
+}
+
+img.pie {
+left: 40%;
+top: 60px;
+ z-index: 10;
+ height: 200%; 
+}
+    
+img.tin {
+ left: 38%;
+ top: 10px;
+ z-index: 1;
+ height: 200%;
+}
+    
+img.logo {
+  top: 20px;
+ left: 25%;
+}
+
+@-webkit-keyframes pieTurnState0{
+	from{-webkit-transform:rotate(0deg);}
+	to{-webkit-transform:rotate(0deg);-webkit-animation-play-state: paused;}
+}
+
+@-webkit-keyframes pieTurnState1{
+	from{-webkit-transform:rotate(0deg);}
+	to{-webkit-transform:rotate(90deg);-webkit-animation-play-state: paused;}
+}
+
+@-webkit-keyframes pieTurnState2{
+	from{-webkit-transform:rotate(90deg);}
+	to{-webkit-transform:rotate(180deg);-webkit-animation-play-state: paused;}
+}
+
+@-webkit-keyframes pieTurnState3{
+	from{-webkit-transform:rotate(180deg);}
+	to{-webkit-transform:rotate(270deg);-webkit-animation-play-state: paused;}
+}
+
+@-webkit-keyframes pieTurnState4{
+	from{-webkit-transform:rotate(270deg);}
+	to{-webkit-transform:rotate(360deg);-webkit-animation-play-state: paused;}
+}
